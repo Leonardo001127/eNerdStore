@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = NSE.Pagamento.API
+build_property.ProjectDir = E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\services\NSE.Pagamento.API\

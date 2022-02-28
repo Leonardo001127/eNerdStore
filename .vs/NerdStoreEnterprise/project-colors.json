@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "67c7bf5b-9716-45db-ae14-fa9b7db9a519": {
+      "ProjectGuid": "67c7bf5b-9716-45db-ae14-fa9b7db9a519",
+      "DisplayName": "NSE.Identidade.API",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
