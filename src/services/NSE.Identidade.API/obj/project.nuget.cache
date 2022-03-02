@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "g+gBZdUucpd0jOCVOmE1h+ha0dsuvFHKCF48kd0R5af2QqdYMXypxchnQbA8osQi5/qtbWvjlemPrOyg34D4IQ==",
+  "dgSpecHash": "SzMXmhBpj/+EGFrRP/4geerIPcBNka1qKisgjGDJXNZhBmBkhOpo22upgQkq5cpUE48U6AOdk/fvjiavY3YnkQ==",
   "success": true,
   "projectFilePath": "E:\\Leonardo\\Estudo\\Curso\\Asp.Net Core Enterprise App\\eNerdStore\\src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj",
   "expectedPackageFiles": [
@@ -115,11 +115,7 @@
     "C:\\Users\\Cliente\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Cliente\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Cliente\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Cliente\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\Cliente\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512",
-    "C:\\Users\\Cliente\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\Cliente\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Cliente\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+    "C:\\Users\\Cliente\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

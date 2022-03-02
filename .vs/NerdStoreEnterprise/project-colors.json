@@ -5,7 +5,42 @@
       "ProjectGuid": "67c7bf5b-9716-45db-ae14-fa9b7db9a519",
       "DisplayName": "NSE.Identidade.API",
       "ColorIndex": 0
+    },
+    "e9ae8163-a22e-4179-a041-820c96307756": {
+      "ProjectGuid": "e9ae8163-a22e-4179-a041-820c96307756",
+      "DisplayName": "NSE.Carrinho.API",
+      "ColorIndex": 1
+    },
+    "6f03b725-dc76-41a7-abd8-c22e4758cb06": {
+      "ProjectGuid": "6f03b725-dc76-41a7-abd8-c22e4758cb06",
+      "DisplayName": "NSE.Catalogo.API",
+      "ColorIndex": 2
+    },
+    "5f298bad-0ea5-4cdf-b7b7-9d709e50ab92": {
+      "ProjectGuid": "5f298bad-0ea5-4cdf-b7b7-9d709e50ab92",
+      "DisplayName": "NSE.Cliente.API",
+      "ColorIndex": 3
+    },
+    "2284ed64-7605-4c36-acb5-49bb6e183ab7": {
+      "ProjectGuid": "2284ed64-7605-4c36-acb5-49bb6e183ab7",
+      "DisplayName": "NSE.Pagamento.API",
+      "ColorIndex": 4
+    },
+    "0c7ae976-d3c5-47cc-81c5-1c5024142743": {
+      "ProjectGuid": "0c7ae976-d3c5-47cc-81c5-1c5024142743",
+      "DisplayName": "NSE.Pedido.API",
+      "ColorIndex": 5
+    },
+    "6c4032d4-7aeb-49c7-a551-f5b84d3945bb": {
+      "ProjectGuid": "6c4032d4-7aeb-49c7-a551-f5b84d3945bb",
+      "DisplayName": "NSE.WebApp.MVC",
+      "ColorIndex": 6
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 7
 }

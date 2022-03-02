@@ -1,9 +1,12 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using NSE.Identidade.API.Configuration;
+using NSE.Identidade.API.Data;
 
 namespace NSE.Identidade.API
 {
@@ -29,6 +32,7 @@ namespace NSE.Identidade.API
 
         public void ConfigureServices(IServiceCollection services)
         {
+             
             services.AddIdentityConfiguration(Configuration);
 
             services.AddApiConfiguration();
@@ -38,6 +42,9 @@ namespace NSE.Identidade.API
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+
+
+
             app.UseSwaggerConfiguration();
             
             app.UseApiConfiguration(env);
