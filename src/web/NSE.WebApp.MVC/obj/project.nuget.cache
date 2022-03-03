@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BT3Tu47D4n698kVB2Q+HUqF45FHzw/1S2HdltvCgPc+s+0uvNp1UxnaH3NHdGHFlgEx8BsEIdIoPOuRSIlu4Ww==",
+  "dgSpecHash": "9gPMijn0VsEU1uUWikkM16VvPIVxP4ZC0v6KnGm3JMF0Cc2AqE8hm8fxLofweMQy+uZDQ02p84/KgZBh3iR4BA==",
   "success": true,
   "projectFilePath": "E:\\Leonardo\\Estudo\\Curso\\Asp.Net Core Enterprise App\\eNerdStore\\src\\web\\NSE.WebApp.MVC\\NSE.WebApp.MVC.csproj",
   "expectedPackageFiles": [
@@ -20,11 +20,7 @@
     "C:\\Users\\Cliente\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\Cliente\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
     "C:\\Users\\Cliente\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512",
-    "C:\\Users\\Cliente\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512",
-    "C:\\Users\\Cliente\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512",
-    "C:\\Users\\Cliente\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\Cliente\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Cliente\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+    "C:\\Users\\Cliente\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512"
   ],
   "logs": []
 }

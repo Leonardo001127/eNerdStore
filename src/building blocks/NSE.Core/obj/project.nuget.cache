@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "61nzo2m0UD5cJRkSDNGIWiH01IVqBpC5AWQh8nnTQpu8oH4TGZvEuwCxjzb0EQRlR4h9aCOtZWkHfuaFA3kFcQ==",
+  "dgSpecHash": "1hcn7loIK641pBlFCxJqm7WcqiFCW3AJxwItG6iKHsAPaqfF4cpxJRjBcxHegab2YC0XkXm/eDWDf+d3zohIGQ==",
   "success": true,
   "projectFilePath": "E:\\Leonardo\\Estudo\\Curso\\Asp.Net Core Enterprise App\\eNerdStore\\src\\building blocks\\NSE.Core\\NSE.Core.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Cliente\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\Cliente\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Cliente\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
