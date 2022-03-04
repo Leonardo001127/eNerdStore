@@ -350,3 +350,5 @@ E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\web\NSE.WebA
 E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.dll
 E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.pdb
 E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.genruntimeconfig.cache
+E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Identidade\Login.cshtml.g.cs
+E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Identidade\Registro.cshtml.g.cs

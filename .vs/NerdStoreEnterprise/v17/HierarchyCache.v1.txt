@@ -1,0 +1,416 @@
+﻿++Solution 'NerdStoreEnterprise' ‎(8 of 8 projects)
+i:{00000000-0000-0000-0000-000000000000}:NerdStoreEnterprise.sln
+++src
+i:{00000000-0000-0000-0000-000000000000}:src
+++Building Blocks
+i:{ce59f6fc-1501-4e25-814a-52b0e0c677c7}:Building Blocks
+++Core
+i:{117a9589-2568-4766-8d6f-6a5e1f0e5c42}:Core
+++NSE.Core
+i:{4f41812c-6330-4b49-a5b0-cc7012e2be45}:NSE.Core
+++Dependencies
+i:{f1468795-2bf8-47d6-a2d5-676713cab112}:>773
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:>1879
+i:{e9ae8163-a22e-4179-a041-820c96307756}:>1880
+i:{6f03b725-dc76-41a7-abd8-c22e4758cb06}:>1878
+i:{5f298bad-0ea5-4cdf-b7b7-9d709e50ab92}:>1881
+i:{2284ed64-7605-4c36-acb5-49bb6e183ab7}:>1882
+i:{0c7ae976-d3c5-47cc-81c5-1c5024142743}:>1883
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:>1877
+++Class1.cs
+i:{f1468795-2bf8-47d6-a2d5-676713cab112}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\building blocks\nse.core\class1.cs
+++Frameworks
+i:{f1468795-2bf8-47d6-a2d5-676713cab112}:frameworks
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:frameworks
+i:{e9ae8163-a22e-4179-a041-820c96307756}:frameworks
+i:{6f03b725-dc76-41a7-abd8-c22e4758cb06}:frameworks
+i:{5f298bad-0ea5-4cdf-b7b7-9d709e50ab92}:frameworks
+i:{2284ed64-7605-4c36-acb5-49bb6e183ab7}:frameworks
+i:{0c7ae976-d3c5-47cc-81c5-1c5024142743}:frameworks
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:frameworks
+++Microsoft.NETCore.App
+i:{f1468795-2bf8-47d6-a2d5-676713cab112}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\building blocks\nse.core\microsoft.netcore.app
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.identidade.api\microsoft.netcore.app
+i:{e9ae8163-a22e-4179-a041-820c96307756}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.carrinho.api\microsoft.netcore.app
+i:{6f03b725-dc76-41a7-abd8-c22e4758cb06}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.catalogo.api\microsoft.netcore.app
+i:{5f298bad-0ea5-4cdf-b7b7-9d709e50ab92}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.cliente.api\microsoft.netcore.app
+i:{2284ed64-7605-4c36-acb5-49bb6e183ab7}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.pagamento.api\microsoft.netcore.app
+i:{0c7ae976-d3c5-47cc-81c5-1c5024142743}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.pedido.api\microsoft.netcore.app
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\microsoft.netcore.app
+++Services
+i:{ce59f6fc-1501-4e25-814a-52b0e0c677c7}:Services
+++Identidade
+i:{d6aeadc0-0dc2-4bf1-9305-436814fc0ee6}:Identidade
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\views\identidade\
+++NSE.Identidade.API
+i:{e20930ae-e7e7-4ed1-afd4-a5d709810aaf}:NSE.Identidade.API
+++Connected Services 
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:>1890
+i:{e9ae8163-a22e-4179-a041-820c96307756}:>1886
+i:{6f03b725-dc76-41a7-abd8-c22e4758cb06}:>1884
+i:{5f298bad-0ea5-4cdf-b7b7-9d709e50ab92}:>1887
+i:{2284ed64-7605-4c36-acb5-49bb6e183ab7}:>1885
+i:{0c7ae976-d3c5-47cc-81c5-1c5024142743}:>1888
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:>1889
+++Properties
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.identidade.api\properties\
+i:{e9ae8163-a22e-4179-a041-820c96307756}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.carrinho.api\properties\
+i:{6f03b725-dc76-41a7-abd8-c22e4758cb06}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.catalogo.api\properties\
+i:{5f298bad-0ea5-4cdf-b7b7-9d709e50ab92}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.cliente.api\properties\
+i:{2284ed64-7605-4c36-acb5-49bb6e183ab7}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.pagamento.api\properties\
+i:{0c7ae976-d3c5-47cc-81c5-1c5024142743}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.pedido.api\properties\
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\properties\
+++launchSettings.json
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.identidade.api\properties\launchsettings.json
+i:{e9ae8163-a22e-4179-a041-820c96307756}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.carrinho.api\properties\launchsettings.json
+i:{6f03b725-dc76-41a7-abd8-c22e4758cb06}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.catalogo.api\properties\launchsettings.json
+i:{5f298bad-0ea5-4cdf-b7b7-9d709e50ab92}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.cliente.api\properties\launchsettings.json
+i:{2284ed64-7605-4c36-acb5-49bb6e183ab7}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.pagamento.api\properties\launchsettings.json
+i:{0c7ae976-d3c5-47cc-81c5-1c5024142743}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.pedido.api\properties\launchsettings.json
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\properties\launchsettings.json
+++Configuration
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.identidade.api\configuration\
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\configuration\
+++Controllers
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.identidade.api\controllers\
+i:{e9ae8163-a22e-4179-a041-820c96307756}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.carrinho.api\controllers\
+i:{6f03b725-dc76-41a7-abd8-c22e4758cb06}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.catalogo.api\controllers\
+i:{5f298bad-0ea5-4cdf-b7b7-9d709e50ab92}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.cliente.api\controllers\
+i:{2284ed64-7605-4c36-acb5-49bb6e183ab7}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.pagamento.api\controllers\
+i:{0c7ae976-d3c5-47cc-81c5-1c5024142743}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.pedido.api\controllers\
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\controllers\
+++AuthController.cs
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.identidade.api\controllers\authcontroller.cs
+++MainController.cs
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.identidade.api\controllers\maincontroller.cs
+++Data
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.identidade.api\data\
+++Extensions
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.identidade.api\extensions\
+++Migrations
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.identidade.api\migrations\
+++Models
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.identidade.api\models\
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\models\
+++UserViewModels.cs
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.identidade.api\models\userviewmodels.cs
+++appsettings.json
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.identidade.api\appsettings.json
+i:{e9ae8163-a22e-4179-a041-820c96307756}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.carrinho.api\appsettings.json
+i:{6f03b725-dc76-41a7-abd8-c22e4758cb06}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.catalogo.api\appsettings.json
+i:{5f298bad-0ea5-4cdf-b7b7-9d709e50ab92}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.cliente.api\appsettings.json
+i:{2284ed64-7605-4c36-acb5-49bb6e183ab7}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.pagamento.api\appsettings.json
+i:{0c7ae976-d3c5-47cc-81c5-1c5024142743}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.pedido.api\appsettings.json
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\appsettings.json
+++Dockerfile
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.identidade.api\dockerfile
+i:{e9ae8163-a22e-4179-a041-820c96307756}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.carrinho.api\dockerfile
+i:{6f03b725-dc76-41a7-abd8-c22e4758cb06}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.catalogo.api\dockerfile
+i:{5f298bad-0ea5-4cdf-b7b7-9d709e50ab92}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.cliente.api\dockerfile
+i:{2284ed64-7605-4c36-acb5-49bb6e183ab7}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.pagamento.api\dockerfile
+i:{0c7ae976-d3c5-47cc-81c5-1c5024142743}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.pedido.api\dockerfile
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\dockerfile
+++Program.cs
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.identidade.api\program.cs
+i:{e9ae8163-a22e-4179-a041-820c96307756}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.carrinho.api\program.cs
+i:{6f03b725-dc76-41a7-abd8-c22e4758cb06}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.catalogo.api\program.cs
+i:{5f298bad-0ea5-4cdf-b7b7-9d709e50ab92}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.cliente.api\program.cs
+i:{2284ed64-7605-4c36-acb5-49bb6e183ab7}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.pagamento.api\program.cs
+i:{0c7ae976-d3c5-47cc-81c5-1c5024142743}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.pedido.api\program.cs
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\program.cs
+++Startup.cs
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.identidade.api\startup.cs
+i:{e9ae8163-a22e-4179-a041-820c96307756}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.carrinho.api\startup.cs
+i:{6f03b725-dc76-41a7-abd8-c22e4758cb06}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.catalogo.api\startup.cs
+i:{5f298bad-0ea5-4cdf-b7b7-9d709e50ab92}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.cliente.api\startup.cs
+i:{2284ed64-7605-4c36-acb5-49bb6e183ab7}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.pagamento.api\startup.cs
+i:{0c7ae976-d3c5-47cc-81c5-1c5024142743}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.pedido.api\startup.cs
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\startup.cs
+++No service dependencies discovered
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:>1892
+i:{e9ae8163-a22e-4179-a041-820c96307756}:>1895
+i:{6f03b725-dc76-41a7-abd8-c22e4758cb06}:>1893
+i:{5f298bad-0ea5-4cdf-b7b7-9d709e50ab92}:>1897
+i:{2284ed64-7605-4c36-acb5-49bb6e183ab7}:>1894
+i:{0c7ae976-d3c5-47cc-81c5-1c5024142743}:>1896
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:>1891
+++Analyzers
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:analyzers
+i:{e9ae8163-a22e-4179-a041-820c96307756}:analyzers
+i:{6f03b725-dc76-41a7-abd8-c22e4758cb06}:analyzers
+i:{5f298bad-0ea5-4cdf-b7b7-9d709e50ab92}:analyzers
+i:{2284ed64-7605-4c36-acb5-49bb6e183ab7}:analyzers
+i:{0c7ae976-d3c5-47cc-81c5-1c5024142743}:analyzers
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:analyzers
+++Packages
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:packages
+i:{e9ae8163-a22e-4179-a041-820c96307756}:packages
+i:{6f03b725-dc76-41a7-abd8-c22e4758cb06}:packages
+i:{5f298bad-0ea5-4cdf-b7b7-9d709e50ab92}:packages
+i:{2284ed64-7605-4c36-acb5-49bb6e183ab7}:packages
+i:{0c7ae976-d3c5-47cc-81c5-1c5024142743}:packages
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:packages
+++ApiConfig.cs
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.identidade.api\configuration\apiconfig.cs
+++IdentityConfig.cs
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.identidade.api\configuration\identityconfig.cs
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\configuration\identityconfig.cs
+++SwaggerConfig.cs
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.identidade.api\configuration\swaggerconfig.cs
+++ApplicationDbContext.cs
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.identidade.api\data\applicationdbcontext.cs
+++AppSettings.cs
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.identidade.api\extensions\appsettings.cs
+++IdentityMensagensPortugues.cs
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.identidade.api\extensions\identitymensagensportugues.cs
+++20200423030546_Initial.cs
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.identidade.api\migrations\20200423030546_initial.cs
+++20220302205902_InitalDb.cs
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.identidade.api\migrations\20220302205902_initaldb.cs
+++ApplicationDbContextModelSnapshot.cs
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.identidade.api\migrations\applicationdbcontextmodelsnapshot.cs
+++appsettings.Development.json
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.identidade.api\appsettings.development.json
+i:{e9ae8163-a22e-4179-a041-820c96307756}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.carrinho.api\appsettings.development.json
+i:{6f03b725-dc76-41a7-abd8-c22e4758cb06}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.catalogo.api\appsettings.development.json
+i:{5f298bad-0ea5-4cdf-b7b7-9d709e50ab92}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.cliente.api\appsettings.development.json
+i:{2284ed64-7605-4c36-acb5-49bb6e183ab7}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.pagamento.api\appsettings.development.json
+i:{0c7ae976-d3c5-47cc-81c5-1c5024142743}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.pedido.api\appsettings.development.json
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{e9ae8163-a22e-4179-a041-820c96307756}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{6f03b725-dc76-41a7-abd8-c22e4758cb06}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{5f298bad-0ea5-4cdf-b7b7-9d709e50ab92}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{2284ed64-7605-4c36-acb5-49bb6e183ab7}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{0c7ae976-d3c5-47cc-81c5-1c5024142743}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{e9ae8163-a22e-4179-a041-820c96307756}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{6f03b725-dc76-41a7-abd8-c22e4758cb06}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{5f298bad-0ea5-4cdf-b7b7-9d709e50ab92}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{2284ed64-7605-4c36-acb5-49bb6e183ab7}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{0c7ae976-d3c5-47cc-81c5-1c5024142743}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{e9ae8163-a22e-4179-a041-820c96307756}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{6f03b725-dc76-41a7-abd8-c22e4758cb06}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{5f298bad-0ea5-4cdf-b7b7-9d709e50ab92}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{2284ed64-7605-4c36-acb5-49bb6e183ab7}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{0c7ae976-d3c5-47cc-81c5-1c5024142743}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:c:\users\cliente\.nuget\packages\microsoft.entityframeworkcore.analyzers\3.1.3\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.AspNetCore.App
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.identidade.api\microsoft.aspnetcore.app
+i:{e9ae8163-a22e-4179-a041-820c96307756}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.carrinho.api\microsoft.aspnetcore.app
+i:{6f03b725-dc76-41a7-abd8-c22e4758cb06}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.catalogo.api\microsoft.aspnetcore.app
+i:{5f298bad-0ea5-4cdf-b7b7-9d709e50ab92}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.cliente.api\microsoft.aspnetcore.app
+i:{2284ed64-7605-4c36-acb5-49bb6e183ab7}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.pagamento.api\microsoft.aspnetcore.app
+i:{0c7ae976-d3c5-47cc-81c5-1c5024142743}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.pedido.api\microsoft.aspnetcore.app
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\microsoft.aspnetcore.app
+++Microsoft.AspNetCore.Authentication.JwtBearer (3.1.3)
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:>1942
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (3.1.3)
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:>1939
+++Microsoft.AspNetCore.Identity.UI (3.1.3)
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:>1945
+++Microsoft.EntityFrameworkCore (3.1.3)
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:>1932
+++Microsoft.EntityFrameworkCore.Abstractions (3.1.3)
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:>1941
+++Microsoft.EntityFrameworkCore.Relational (3.1.3)
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:>1940
+++Microsoft.EntityFrameworkCore.SqlServer (3.1.3)
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:>1936
+++Microsoft.EntityFrameworkCore.Tools (3.1.3)
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:>1943
+++Microsoft.VisualStudio.Azure.Containers.Tools.Targets (1.10.8)
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:>1944
+i:{e9ae8163-a22e-4179-a041-820c96307756}:>1967
+i:{6f03b725-dc76-41a7-abd8-c22e4758cb06}:>1933
+i:{5f298bad-0ea5-4cdf-b7b7-9d709e50ab92}:>1965
+i:{2284ed64-7605-4c36-acb5-49bb6e183ab7}:>1972
+i:{0c7ae976-d3c5-47cc-81c5-1c5024142743}:>1934
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:>1937
+++Swashbuckle.AspNetCore (5.3.3)
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:>1938
+++20200423030546_Initial.Designer.cs
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.identidade.api\migrations\20200423030546_initial.designer.cs
+++20220302205902_InitalDb.Designer.cs
+i:{67c7bf5b-9716-45db-ae14-fa9b7db9a519}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.identidade.api\migrations\20220302205902_initaldb.designer.cs
+++Carrinho
+i:{d6aeadc0-0dc2-4bf1-9305-436814fc0ee6}:Carrinho
+++NSE.Carrinho.API
+i:{ddc37040-1b9b-49fb-aa06-2982159f9ce0}:NSE.Carrinho.API
+++WeatherForecast.cs
+i:{e9ae8163-a22e-4179-a041-820c96307756}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.carrinho.api\weatherforecast.cs
+i:{6f03b725-dc76-41a7-abd8-c22e4758cb06}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.catalogo.api\weatherforecast.cs
+i:{5f298bad-0ea5-4cdf-b7b7-9d709e50ab92}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.cliente.api\weatherforecast.cs
+i:{2284ed64-7605-4c36-acb5-49bb6e183ab7}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.pagamento.api\weatherforecast.cs
+i:{0c7ae976-d3c5-47cc-81c5-1c5024142743}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.pedido.api\weatherforecast.cs
+++WeatherForecastController.cs
+i:{e9ae8163-a22e-4179-a041-820c96307756}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.carrinho.api\controllers\weatherforecastcontroller.cs
+i:{6f03b725-dc76-41a7-abd8-c22e4758cb06}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.catalogo.api\controllers\weatherforecastcontroller.cs
+i:{5f298bad-0ea5-4cdf-b7b7-9d709e50ab92}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.cliente.api\controllers\weatherforecastcontroller.cs
+i:{2284ed64-7605-4c36-acb5-49bb6e183ab7}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.pagamento.api\controllers\weatherforecastcontroller.cs
+i:{0c7ae976-d3c5-47cc-81c5-1c5024142743}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\services\nse.pedido.api\controllers\weatherforecastcontroller.cs
+++Catalogo
+i:{d6aeadc0-0dc2-4bf1-9305-436814fc0ee6}:Catalogo
+++NSE.Catalogo.API
+i:{11f7fadb-845f-4786-a226-39c7320ef12e}:NSE.Catalogo.API
+++Cliente
+i:{d6aeadc0-0dc2-4bf1-9305-436814fc0ee6}:Cliente
+++NSE.Cliente.API
+i:{0087f975-336a-4537-b653-df81e2ada298}:NSE.Cliente.API
+++Pagamento
+i:{d6aeadc0-0dc2-4bf1-9305-436814fc0ee6}:Pagamento
+++NSE.Pagamento.API
+i:{003af41a-de6d-4e10-bfb2-b17dffaa96cf}:NSE.Pagamento.API
+++Pedido
+i:{d6aeadc0-0dc2-4bf1-9305-436814fc0ee6}:Pedido
+++NSE.Pedido.API
+i:{d677dc3b-f746-4a12-8c71-41baab2bddf8}:NSE.Pedido.API
+++Web
+i:{ce59f6fc-1501-4e25-814a-52b0e0c677c7}:Web
+++MVC
+i:{119cfea6-a437-44da-9213-ee8b87493873}:MVC
+++NSE.WebApp.MVC
+i:{e9ce11fb-0d6c-4843-abdd-19d63ed900ef}:NSE.WebApp.MVC
+++wwwroot
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\
+++css
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\css\
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\bootstrap\dist\css\
+++js
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\js\
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\
+++favicon.ico
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\favicon.ico
+++WebAppConfig.cs
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\configuration\webappconfig.cs
+++HomeController.cs
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\controllers\homecontroller.cs
+++IdentidadeController.cs
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\controllers\identidadecontroller.cs
+++ErrorViewModel.cs
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\models\errorviewmodel.cs
+++UsuarioViewModels.cs
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\models\usuarioviewmodels.cs
+++Views
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\views\
+++Home
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\views\home\
+++Index.cshtml
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\views\home\index.cshtml
+++Privacy.cshtml
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\views\home\privacy.cshtml
+++_LoginPartial.cshtml
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\views\identidade\_loginpartial.cshtml
+++Login.cshtml
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\views\identidade\login.cshtml
+++Registro.cshtml
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\views\identidade\registro.cshtml
+++Shared
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\views\shared\
+++_ViewImports.cshtml
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\views\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\views\_viewstart.cshtml
+++site.css
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\css\site.css
+++site.js
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\js\site.js
+++bootstrap
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\bootstrap\
+++jquery
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\jquery\
+++jquery-validation
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\jquery-validation-unobtrusive\
+++_Layout.cshtml
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\views\shared\_layout.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\views\shared\_validationscriptspartial.cshtml
+++Error.cshtml
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\views\shared\error.cshtml
+++Microsoft.CodeAnalysis.Analyzers
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:c:\users\cliente\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.3\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:c:\users\cliente\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.3\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation (3.1.3)
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:>1935
+++dist
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\bootstrap\dist\
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\jquery\dist\
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\jquery\license.txt
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++jquery.js
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++bootstrap.css
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap.js
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++jquery.min.js
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++bootstrap.css.map
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap-grid.css.map
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-reboot.css.map
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap.bundle.js
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.js.map
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.map
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.min.css.map
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap-grid.min.css.map
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-reboot.min.css.map
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap.bundle.js.map
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.min.js.map
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++bootstrap.bundle.min.js.map
+i:{6c4032d4-7aeb-49c7-a551-f5b84d3945bb}:e:\leonardo\estudo\curso\asp.net core enterprise app\enerdstore\src\web\nse.webapp.mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
