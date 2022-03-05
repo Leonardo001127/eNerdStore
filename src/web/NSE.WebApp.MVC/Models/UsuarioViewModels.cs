@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
 namespace NSE.WebApp.MVC.Models
@@ -28,5 +29,23 @@ namespace NSE.WebApp.MVC.Models
         [Required(ErrorMessage = "O campo {0} é obrigatório!")]
         [StringLength(100, ErrorMessage = "O campo {0} precisa ter entre {2} e {1} caracteres", MinimumLength = 6)]
         public string Senha { get; set; }
+    }
+
+    public class UsuarioRespostaLogin
+    {
+        public string accessToken { get; set; }
+        public double expiresIn { get; set; }
+        public UsuarioToken usuarioToken { get; set; }
+    }
+    public class UsuarioToken
+    {
+        public string id { get; set; }
+        public string email { get; set; }
+        public IEnumerable<UsuarioClaim> claims { get; set; }
+    }
+    public class UsuarioClaim
+    {
+        public string value { get; set; }
+        public string type { get; set; }
     }
 }

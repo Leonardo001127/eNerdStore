@@ -14,7 +14,7 @@ namespace NSE.WebApp.MVC.Services
             _httpClient = httpClient;
         }
 
-        public async Task<string> Login(UsuarioLogin user)
+        public async Task<UsuarioRespostaLogin> Login(UsuarioLogin user)
         {
             var loginCont = new StringContent(
                 JsonSerializer.Serialize(user),
@@ -22,13 +22,16 @@ namespace NSE.WebApp.MVC.Services
                 "application/json"
                 );
 
-            var response = await _httpClient.PostAsync("https://localhost:44396/api/identidade/autenticar", loginCont);
+            var opt = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true,
+            };
 
-            var teste = await response.Content.ReadAsStringAsync();
+            var response = await _httpClient.PostAsync("https://localhost:44396/api/identidade/autenticar", loginCont);          
 
-            return JsonSerializer.Deserialize<string>(await response.Content.ReadAsStringAsync());
+            return JsonSerializer.Deserialize<UsuarioRespostaLogin>(await response.Content.ReadAsStringAsync(), opt);
         }
-        public async Task<string> Registro(UsuarioRegistro user)
+        public async Task<UsuarioRespostaLogin> Registro(UsuarioRegistro user)
         {
             var registroCont = new StringContent(
                 JsonSerializer.Serialize(user),
@@ -36,8 +39,14 @@ namespace NSE.WebApp.MVC.Services
                 "applicaton/json"
                 );
 
+            var opt = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true,
+            };
+
             var response = await _httpClient.PostAsync("https://localhost:44396/api/identidade/nova-conta", registroCont);
-            return JsonSerializer.Deserialize<string>(await response.Content.ReadAsStringAsync());
+            
+            return JsonSerializer.Deserialize<UsuarioRespostaLogin>(await response.Content.ReadAsStringAsync(), opt);
         }
 
     }
