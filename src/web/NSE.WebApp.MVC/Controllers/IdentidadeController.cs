@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace NSE.WebApp.MVC.Controllers
 {
-    public class IdentidadeController : Controller
+    public class IdentidadeController : MainController
     {
         private readonly IAuthService _authService; 
 
@@ -33,7 +33,13 @@ namespace NSE.WebApp.MVC.Controllers
         {
             if (!ModelState.IsValid) return View(user);
 
+
             var result = await _authService.Registro(user);
+
+            if (ResponseHasErrors(result.ResponseResult))
+            {
+                return View(user);
+            }
 
             await RealizarLogin(result);
 
@@ -54,6 +60,11 @@ namespace NSE.WebApp.MVC.Controllers
             if (!ModelState.IsValid) return View(user);
 
             var result = await _authService.Login(user);
+
+            if (ResponseHasErrors(result.ResponseResult))
+            {
+                return View(user);
+            }
 
             await RealizarLogin(result);
 

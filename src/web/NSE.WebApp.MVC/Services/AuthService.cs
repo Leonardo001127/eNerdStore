@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace NSE.WebApp.MVC.Services
 {
-    public class AuthService : IAuthService
+    public class AuthService : Service, IAuthService
     {
         private readonly HttpClient _httpClient;
 
@@ -27,7 +27,17 @@ namespace NSE.WebApp.MVC.Services
                 PropertyNameCaseInsensitive = true,
             };
 
-            var response = await _httpClient.PostAsync("https://localhost:44396/api/identidade/autenticar", loginCont);          
+            var response = await _httpClient.PostAsync("https://localhost:44396/api/identidade/autenticar", loginCont);
+
+
+            if (!TratarErrorsResponse(response))
+            {
+                return new UsuarioRespostaLogin
+                {
+                    ResponseResult = JsonSerializer.Deserialize<ResponseResult>(await response.Content.ReadAsStringAsync(), opt)
+                };
+            }
+
 
             return JsonSerializer.Deserialize<UsuarioRespostaLogin>(await response.Content.ReadAsStringAsync(), opt);
         }
@@ -45,7 +55,14 @@ namespace NSE.WebApp.MVC.Services
             };
 
             var response = await _httpClient.PostAsync("https://localhost:44396/api/identidade/nova-conta", registroCont);
-            
+
+            if (!TratarErrorsResponse(response))
+            {
+                return new UsuarioRespostaLogin
+                {
+                    ResponseResult = JsonSerializer.Deserialize<ResponseResult>(await response.Content.ReadAsStringAsync(), opt)
+                };
+            }
             return JsonSerializer.Deserialize<UsuarioRespostaLogin>(await response.Content.ReadAsStringAsync(), opt);
         }
 
