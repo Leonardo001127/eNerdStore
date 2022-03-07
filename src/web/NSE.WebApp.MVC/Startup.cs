@@ -8,17 +8,31 @@ namespace NSE.WebApp.MVC
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public IConfiguration Configuration { get; }
+        public Startup(IHostingEnvironment host)
         {
-            Configuration = configuration;
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(host.ContentRootPath)
+                .AddJsonFile("appSettings.json", true, true)
+                .AddJsonFile($"appSettings.{host.EnvironmentName}json", true, true)
+                .AddEnvironmentVariables();
+
+            if (host.IsDevelopment())
+            {
+                builder.AddUserSecrets<Startup>();
+
+            }
+
+            Configuration = builder.Build();
+
         }
 
-        public IConfiguration Configuration { get; } 
+        
 
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddIdentityConfiguration();
-            services.AddMvcConfiguration();
+            services.AddMvcConfiguration(Configuration);
 
             services.RegisterServices(); 
         }

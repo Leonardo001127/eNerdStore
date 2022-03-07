@@ -28,9 +28,11 @@ namespace NSE.WebApp.MVC.Extensions
         {
             if(ex.statusCode == System.Net.HttpStatusCode.Unauthorized)
             {
-                context.Response.Redirect("/login");
+                //string adicionada para redirecionar para a página desejada antes de receber o unauthorized
+                context.Response.Redirect($"/login?ReturnUrl={context.Request.Path}");
                 return;
             }
+
             context.Response.StatusCode = (int)ex.statusCode;
         }
     }
