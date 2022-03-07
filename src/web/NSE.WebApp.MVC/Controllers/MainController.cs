@@ -5,7 +5,7 @@ using System.Linq;
 namespace NSE.WebApp.MVC.Controllers
 {
     public class MainController : Controller
-    {
+    { 
         public bool ResponseHasErrors(ResponseResult response)
             => response != null && response.Errors.Messages.Any();
         

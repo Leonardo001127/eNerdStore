@@ -4,7 +4,7 @@ using System.Net.Http;
 namespace NSE.WebApp.MVC.Services
 {
     public abstract class Service
-    {
+    { 
         public bool TratarErrorsResponse(HttpResponseMessage response)
         {
             switch ((int)response.StatusCode)

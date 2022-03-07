@@ -52,7 +52,7 @@ namespace NSE.WebApp.MVC.Controllers
         {
             return View();
         }
-
+         
         [HttpPost]
         [Route("login")]
         public async Task<IActionResult> Login(UsuarioLogin user)

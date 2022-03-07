@@ -45,7 +45,7 @@ namespace NSE.WebApp.MVC.Services
         {
             var registroCont = new StringContent(
                 JsonSerializer.Serialize(user),
-                System.Text.Encoding.UTF8,
+                System.Text.Encoding.UTF8, 
                 "applicaton/json"
                 );
 

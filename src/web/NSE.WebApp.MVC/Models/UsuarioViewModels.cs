@@ -31,8 +31,8 @@ namespace NSE.WebApp.MVC.Models
         public string Senha { get; set; }
     }
 
-    public class UsuarioRespostaLogin
-    {
+    public class UsuarioRespostaLogin 
+    { 
         public string accessToken { get; set; }
         public double expiresIn { get; set; }
         public UsuarioToken usuarioToken { get; set; }
