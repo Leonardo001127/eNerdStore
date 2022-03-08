@@ -33,18 +33,15 @@ namespace NSE.Catalogo.API.Migrations
 
                     b.Property<string>("Descricao")
                         .IsRequired()
-                        .HasColumnName("varchar(500)")
-                        .HasColumnType("varchar(100)");
+                        .HasColumnType("varchar(500)");
 
                     b.Property<string>("Imagem")
                         .IsRequired()
-                        .HasColumnName("varchar(250)")
-                        .HasColumnType("varchar(100)");
+                        .HasColumnType("varchar(250)");
 
                     b.Property<string>("Nome")
                         .IsRequired()
-                        .HasColumnName("varchar(250)")
-                        .HasColumnType("varchar(100)");
+                        .HasColumnType("varchar(250)");
 
                     b.Property<int>("QuantidadeEstoque")
                         .HasColumnType("int");

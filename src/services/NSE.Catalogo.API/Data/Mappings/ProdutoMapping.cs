@@ -12,15 +12,15 @@ namespace NSE.Catalogo.API.Data.Mappings
 
             builder.Property(x => x.Nome)
                 .IsRequired()
-                .HasColumnName("varchar(250)");
+                .HasColumnType("varchar(250)");
 
             builder.Property(x => x.Descricao)
                 .IsRequired()
-                .HasColumnName("varchar(500)");
+                .HasColumnType("varchar(500)");
 
             builder.Property(x => x.Imagem)
                 .IsRequired()
-                .HasColumnName("varchar(250)");
+                .HasColumnType("varchar(250)");
 
 
             builder.ToTable("Produtos");

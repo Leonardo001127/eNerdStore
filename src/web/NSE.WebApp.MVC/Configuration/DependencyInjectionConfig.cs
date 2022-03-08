@@ -11,6 +11,8 @@ namespace NSE.WebApp.MVC.Configuration
         {
             services.AddHttpClient<IAuthService, AuthService>();
 
+            services.AddHttpClient<ICatalogoService, CatalogoService>();
+
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
             services.AddScoped<IUser, NetUser>();

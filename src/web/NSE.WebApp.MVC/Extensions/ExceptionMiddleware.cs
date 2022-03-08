@@ -1,4 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Polly.CircuitBreaker;
+using Refit;
+using System.Net;
 using System.Threading.Tasks;
 
 namespace NSE.WebApp.MVC.Extensions
@@ -20,20 +23,37 @@ namespace NSE.WebApp.MVC.Extensions
             }
             catch (CustomHttpRequestException ex)
             {
-                 
+                HandleRequestExceptionAsync(context, ex.statusCode);
+            }
+            catch (ValidationApiException ex)
+            {
+                HandleRequestExceptionAsync(context, ex.StatusCode);
+            }
+            catch (ApiException ex)
+            {
+                HandleRequestExceptionAsync(context, ex.StatusCode);
+            }
+            catch (BrokenCircuitException)
+            {
+                HandleCircuitBreakerExceptionAsync(context);
             }
         }
 
-        private static void HandleRequestExceptionAsync(HttpContext context, CustomHttpRequestException ex)
+        private static void HandleRequestExceptionAsync(HttpContext context, HttpStatusCode ex)
         {
-            if(ex.statusCode == System.Net.HttpStatusCode.Unauthorized)
+            if(ex == HttpStatusCode.Unauthorized)
             {
                 //string adicionada para redirecionar para a página desejada antes de receber o unauthorized
-                context.Response.Redirect($"/login?ReturnUrl={context.Request.Path}");
+                context.Response.Redirect($"/Login?ReturnUrl={context.Request.Path}");
                 return;
             }
 
-            context.Response.StatusCode = (int)ex.statusCode;
+            context.Response.StatusCode = (int)ex;
+        }
+
+        private static void HandleCircuitBreakerExceptionAsync(HttpContext context)
+        {
+            context.Response.Redirect("/sistema-indisponivel");
         }
     }
 }
