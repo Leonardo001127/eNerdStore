@@ -5,6 +5,7 @@
     <UserSecretsId>420a4d48-77b6-4c93-881d-5edd758def1b</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>..\..\..</DockerfileContext>
+    <Configurations>Debug;Release;Teste</Configurations>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,6 +22,10 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\building blocks\NSE.WebAPI.Core\NSE.WebAPI.Core.csproj" />
   </ItemGroup>
 
 

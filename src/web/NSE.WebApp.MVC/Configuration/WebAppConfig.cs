@@ -14,6 +14,8 @@ namespace NSE.WebApp.MVC.Configuration
         {
 
             services.AddControllersWithViews();
+              //  .AddRazorRuntimeCompilation();
+            //services.AddRazorPages();
 
             services.Configure<AppSettings>(config);
         }
@@ -23,6 +25,7 @@ namespace NSE.WebApp.MVC.Configuration
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                 
             }
             else
             {

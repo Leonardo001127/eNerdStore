@@ -43,11 +43,11 @@ namespace NSE.WebApp.MVC.Controllers
 
             await RealizarLogin(result);
 
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index", "Catalogo");
         }
 
         [HttpGet]
-        [Route("login")]
+        [Route("Login")]
         public IActionResult Login(string ReturnUrl= null)
         {
             ViewData["ReturnUrl"] = ReturnUrl;
@@ -55,10 +55,10 @@ namespace NSE.WebApp.MVC.Controllers
         }
          
         [HttpPost]
-        [Route("login")]
+        [Route("Login")]
         public async Task<IActionResult> Login(UsuarioLogin user, string ReturnUrl = null)
         {
-            ViewData["returnUrl"] = ReturnUrl;
+            ViewData["ReturnUrl"] = ReturnUrl;
             if (!ModelState.IsValid) return View(user);
 
             var result = await _authService.Login(user);
@@ -71,7 +71,7 @@ namespace NSE.WebApp.MVC.Controllers
             await RealizarLogin(result);
 
             if(string.IsNullOrEmpty(ReturnUrl))
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Index", "Catalogo");
             else
                 return LocalRedirect(ReturnUrl);
         }
@@ -82,7 +82,7 @@ namespace NSE.WebApp.MVC.Controllers
         {
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
 
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index", "Catalogo");
         }
 
 
