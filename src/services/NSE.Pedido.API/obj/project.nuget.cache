@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HuAP6InBreMbFk57gWhiPomyFyyD89VfirE5xZDjK8IHWwnrWFir/RBbdbXmaOkSASp5uxnwgMpdSPaupj0Yvg==",
+  "success": true,
+  "projectFilePath": "E:\\Leonardo\\Estudo\\Curso\\Asp.Net Core Enterprise App\\eNerdStore\\src\\services\\NSE.Pedido.API\\NSE.Pedido.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Cliente\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.8\\microsoft.visualstudio.azure.containers.tools.targets.1.10.8.nupkg.sha512"
+  ],
+  "logs": []
+}

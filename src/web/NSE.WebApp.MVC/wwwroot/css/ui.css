@@ -180,7 +180,9 @@ a:hover { text-decoration: none; }
 .padding-top { padding-top: 40px; }
 
 .padding-bottom { padding-bottom: 40px; }
-
+.padding-y {
+    padding-top: 20px;
+}
 .padding-y-lg {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -1051,8 +1053,8 @@ a[class*='card']:hover .title { color: #3167eb; }
 }
 
 .price {
-    font-weight: 600;
-    color: #212529;
+    font-weight: bold;
+    color: #fff;
 }
 
 .price-old {
