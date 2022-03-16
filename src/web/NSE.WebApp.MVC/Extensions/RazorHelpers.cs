@@ -19,14 +19,18 @@ namespace NSE.WebApp.MVC.Extensions
             return sBuilder.ToString();
         }
 
-        public static string FormatoMoeda(this RazorPage page, decimal valor)
+        public static string FormatoMoeda(this RazorPage page, decimal _valor)
         {
-            return valor > 0 ? string.Format(Thread.CurrentThread.CurrentCulture, "{0:C}", valor) : "Gratuito";
+            string result(decimal valor) => valor > 0 ? string.Format(Thread.CurrentThread.CurrentCulture, "{0:C}", valor) : "Gratuito";
+
+            return result(_valor);
         }
 
         public static string MensagemEstoque(this RazorPage page, int quantidade)
         {
-            return quantidade > 0 ? $"Apenas {quantidade} em estoque!" : "Produto esgotado!";
+            string valor(int quantidade) => quantidade > 0 ? $"Apenas {quantidade} em estoque!" : "Produto esgotado!";
+             
+            return valor(quantidade);
         }
     }
 }
