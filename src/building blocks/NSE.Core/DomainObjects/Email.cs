@@ -18,7 +18,7 @@ namespace NSE.Core.DomainObjects
             if (!Validar(email)) throw new DomainException("E-mail inválido");
             _email = email;
         }
-        public bool Validar(string email)
+        public static bool Validar(string email)
         {
             var regexEmail = new Regex(@"\A(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)\Z");
 

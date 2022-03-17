@@ -10,6 +10,13 @@ namespace NSE.Clientes.API.Application.Commands
     public class ClienteCommandHandler : CommandHandler,
         IRequestHandler<RegistrarClienteCommand, ValidationResult>
     {
+        private readonly IClienteRepository _clienteRepository;
+
+        public ClienteCommandHandler(IClienteRepository clienteRepository)
+        {
+            _clienteRepository = clienteRepository;
+        }
+
         public async Task<ValidationResult> Handle(RegistrarClienteCommand message,
             CancellationToken cancellation)
         {
@@ -18,9 +25,19 @@ namespace NSE.Clientes.API.Application.Commands
 
             var cliente = new Cliente(message.Id, message.Nome, message.Email, message.Cpf);
 
+            var clienteExists = _clienteRepository.GetByCpf(message.Cpf);
+
+            if (clienteExists == null)
+            {
+                AddError("Cliente já cadastrado no sistema");
+                return message.ValidationResult;
+            }
 
 
-            return message.ValidationResult;
+            _clienteRepository.Adicionar(cliente);
+             
+
+            return await Persist(_clienteRepository.work);
         }
     }
 }
