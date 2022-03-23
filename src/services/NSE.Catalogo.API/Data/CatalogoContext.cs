@@ -1,6 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using FluentValidation.Results;
+using Microsoft.EntityFrameworkCore;
 using NSE.Catalogo.API.Models;
 using NSE.Core.Data;
+using NSE.Core.Message;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -16,6 +18,8 @@ namespace NSE.Catalogo.API.Data
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
+            builder.Ignore<Event>();
+            builder.Ignore<ValidationResult>();
             foreach (var property in builder.Model.GetEntityTypes().SelectMany(
                 e => e.GetProperties().Where(x=> x.ClrType == typeof(string))))
             {

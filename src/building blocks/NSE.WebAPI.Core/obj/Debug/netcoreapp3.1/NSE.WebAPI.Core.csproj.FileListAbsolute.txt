@@ -1,0 +1,10 @@
+E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\building blocks\NSE.WebAPI.Core\bin\Debug\netcoreapp3.1\NSE.WebAPI.Core.deps.json
+E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\building blocks\NSE.WebAPI.Core\bin\Debug\netcoreapp3.1\NSE.WebAPI.Core.dll
+E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\building blocks\NSE.WebAPI.Core\bin\Debug\netcoreapp3.1\NSE.WebAPI.Core.pdb
+E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\building blocks\NSE.WebAPI.Core\obj\Debug\netcoreapp3.1\NSE.WebAPI.Core.csproj.AssemblyReference.cache
+E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\building blocks\NSE.WebAPI.Core\obj\Debug\netcoreapp3.1\NSE.WebAPI.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\building blocks\NSE.WebAPI.Core\obj\Debug\netcoreapp3.1\NSE.WebAPI.Core.AssemblyInfoInputs.cache
+E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\building blocks\NSE.WebAPI.Core\obj\Debug\netcoreapp3.1\NSE.WebAPI.Core.AssemblyInfo.cs
+E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\building blocks\NSE.WebAPI.Core\obj\Debug\netcoreapp3.1\NSE.WebAPI.Core.csproj.CoreCompileInputs.cache
+E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\building blocks\NSE.WebAPI.Core\obj\Debug\netcoreapp3.1\NSE.WebAPI.Core.dll
+E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\building blocks\NSE.WebAPI.Core\obj\Debug\netcoreapp3.1\NSE.WebAPI.Core.pdb

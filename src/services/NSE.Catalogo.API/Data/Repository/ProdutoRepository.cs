@@ -9,14 +9,13 @@ namespace NSE.Catalogo.API.Data.Repository
 {
     public class ProdutoRepository : IProdutoRepository
     {
-        private readonly CatalogoContext context;
-        private readonly IUnitOfWork work;
-
+        private readonly CatalogoContext context; 
         public ProdutoRepository(CatalogoContext context)
         {
-            this.context = context;
-            work = this.context;
+            this.context = context; 
         }
+
+        public IUnitOfWork work => this.context;
 
         public async Task<IEnumerable<Produto>> ObterProdutos()
         {

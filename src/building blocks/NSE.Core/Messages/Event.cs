@@ -7,7 +7,7 @@ using System.Text;
 
 namespace NSE.Core.Message
 {
-    public abstract class Event : Message, IRequest<ValidationResult>
+    public  class Event : Message, INotification, IRequest<ValidationResult>
     {
         
         public DateTime TimeStamp { get; set; }

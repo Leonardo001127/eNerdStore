@@ -22,7 +22,7 @@ namespace NSE.Core.DomainObjects
         {
             var regexEmail = new Regex(@"\A(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)\Z");
 
-            return regexEmail.IsMatch(_email);
+            return regexEmail.IsMatch(email);
         }
     }
 }
