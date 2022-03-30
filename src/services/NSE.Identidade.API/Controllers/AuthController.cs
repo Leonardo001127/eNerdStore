@@ -5,10 +5,12 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+using EasyNetQ;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
+using NSE.Core.Messages.Integration;
 using NSE.Identidade.API.Extensions;
 using NSE.Identidade.API.Models;
 using NSE.WebAPI.Core.Controllers;
@@ -22,18 +24,18 @@ namespace NSE.Identidade.API.Controllers
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly UserManager<IdentityUser> _userManager;
         private readonly AppSettings _appSettings;
-
+        private IBus bus;
         public AuthController(SignInManager<IdentityUser> signInManager,
                               UserManager<IdentityUser> userManager,
                               IOptions<AppSettings> appSettings)
         {
             _signInManager = signInManager;
             _userManager = userManager;
-            _appSettings = appSettings.Value;
+            _appSettings = appSettings.Value; 
         }
 
         [HttpPost("nova-conta")]
-        public async Task<ActionResult> Registrar(UsuarioRegistro usuarioRegistro)
+        public async Task<IActionResult> Registrar(UsuarioRegistro usuarioRegistro)
         {
             if (!ModelState.IsValid) return CustomResponse(ModelState);
 
@@ -48,6 +50,8 @@ namespace NSE.Identidade.API.Controllers
 
             if (result.Succeeded)
             {
+                var registro = await RegistrarCliente(usuarioRegistro);
+
                 return CustomResponse(await GerarJwt(usuarioRegistro.Email));
             }
 
@@ -58,6 +62,21 @@ namespace NSE.Identidade.API.Controllers
 
             return CustomResponse();
         }
+
+        private async Task<ResponseMessage> RegistrarCliente(UsuarioRegistro usuario)
+        {
+            var user = await _userManager.FindByEmailAsync(usuario.Email);
+
+            var userRegistrado = new UsuarioRegistradoIntegrationEvent(Guid.Parse(user.Id), usuario.Nome, usuario.Email, usuario.Cpf);
+
+            bus = RabbitHutch.CreateBus("host=localhost:15672");
+            
+            var result = await bus.Rpc.RequestAsync<UsuarioRegistradoIntegrationEvent, ResponseMessage>(userRegistrado);
+
+            return result;
+
+        }
+
 
         [HttpPost("autenticar")]
         public async Task<ActionResult> Login(UsuarioLogin usuarioLogin)
@@ -92,6 +111,8 @@ namespace NSE.Identidade.API.Controllers
 
             return ObterRespostaToken(encodedToken, user, claims);
         }
+
+
 
         private async Task<ClaimsIdentity> ObterClaimsUsuario(ICollection<Claim> claims, IdentityUser user)
         {

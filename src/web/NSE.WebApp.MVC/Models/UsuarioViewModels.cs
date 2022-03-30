@@ -7,8 +7,7 @@ namespace NSE.WebApp.MVC.Models
 {
     public class UsuarioRegistro
     {
-        [Required(ErrorMessage = "O campo {0} é obrigatório!")]
-        [EmailAddress(ErrorMessage = "O campo {0} está em formato inválido!")]
+        [Required(ErrorMessage = "O campo {0} é obrigatório!")] 
         [DisplayName("Nome completo")]
         public string Nome { get; set; }
 
