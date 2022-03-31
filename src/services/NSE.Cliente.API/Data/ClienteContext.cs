@@ -41,14 +41,18 @@ namespace NSE.Clientes.API.Data
 
 
             builder.ApplyConfigurationsFromAssembly(typeof(ClienteContext).Assembly);
-        }
+        } 
+
         public async Task<bool> Commit()
         {
-            var result = await base.SaveChangesAsync() > 0;
+            var result = await this.SaveChangesAsync() > 0;
 
             if(result)
                 await _mediatorHandler.PublicarEventos(this);
+            else
+            {
 
+            }
             return result;
 
         }
@@ -58,6 +62,7 @@ namespace NSE.Clientes.API.Data
         public static async Task PublicarEventos<T>(this IMediatorHandler mediatorHandler, T ctx)
             where T : DbContext
         {
+            return;
             var domainEntities = ctx.ChangeTracker
                 .Entries<Entity>()
                 .Where(x => x.Entity.Notificacoes != null && x.Entity.Notificacoes.Any());

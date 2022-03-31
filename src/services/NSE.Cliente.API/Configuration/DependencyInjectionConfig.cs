@@ -15,15 +15,16 @@ namespace NSE.Clientes.API.Configuration
     {
         public static void RegisterServices(this IServiceCollection services)
         {
-            services.AddScoped<IMediatorHandler, MediatorHandler>();
+            services.AddTransient<IMediatorHandler, MediatorHandler>();
 
             services.AddScoped<IRequestHandler<RegistrarClienteCommand, ValidationResult>, ClienteCommandHandler>();
             services.AddScoped<INotificationHandler<ClienteRegistradoEvent>, ClienteEventHandler>();
 
-            services.AddScoped<IClienteRepository, ClienteRepository>();
-            services.AddScoped<ClienteContext>();
+            services.AddTransient<IClienteRepository, ClienteRepository>();
+            
+            services.AddTransient<ClienteContext>();
 
-            services.AddHostedService<RegistroClienteIntegrationHandler>();
+            
         }
     }
 }

@@ -1,0 +1,15 @@
+E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\building blocks\NSE.MessageBus\bin\Debug\net6.0\NSE.MessageBus.deps.json
+E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\building blocks\NSE.MessageBus\bin\Debug\net6.0\NSE.MessageBus.dll
+E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\building blocks\NSE.MessageBus\bin\Debug\net6.0\NSE.MessageBus.pdb
+E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\building blocks\NSE.MessageBus\bin\Debug\net6.0\NSE.Core.dll
+E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\building blocks\NSE.MessageBus\bin\Debug\net6.0\NSE.Core.pdb
+E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\building blocks\NSE.MessageBus\obj\Debug\net6.0\NSE.MessageBus.csproj.AssemblyReference.cache
+E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\building blocks\NSE.MessageBus\obj\Debug\net6.0\NSE.MessageBus.GeneratedMSBuildEditorConfig.editorconfig
+E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\building blocks\NSE.MessageBus\obj\Debug\net6.0\NSE.MessageBus.AssemblyInfoInputs.cache
+E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\building blocks\NSE.MessageBus\obj\Debug\net6.0\NSE.MessageBus.AssemblyInfo.cs
+E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\building blocks\NSE.MessageBus\obj\Debug\net6.0\NSE.MessageBus.csproj.CoreCompileInputs.cache
+E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\building blocks\NSE.MessageBus\obj\Debug\net6.0\NSE.MessageBus.csproj.CopyComplete
+E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\building blocks\NSE.MessageBus\obj\Debug\net6.0\NSE.MessageBus.dll
+E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\building blocks\NSE.MessageBus\obj\Debug\net6.0\refint\NSE.MessageBus.dll
+E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\building blocks\NSE.MessageBus\obj\Debug\net6.0\NSE.MessageBus.pdb
+E:\Leonardo\Estudo\Curso\Asp.Net Core Enterprise App\eNerdStore\src\building blocks\NSE.MessageBus\obj\Debug\net6.0\ref\NSE.MessageBus.dll

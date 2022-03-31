@@ -15,7 +15,7 @@ namespace NSE.Clientes.API.Configuration
         {
 
             services.AddDbContext<ClienteContext>(x =>
-            x.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+            x.UseSqlServer(configuration.GetConnectionString("DefaultConnection")), ServiceLifetime.Transient);
 
             services.AddControllers();
 

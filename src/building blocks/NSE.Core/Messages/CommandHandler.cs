@@ -1,4 +1,5 @@
 ﻿using FluentValidation.Results;
+using Microsoft.EntityFrameworkCore;
 using NSE.Core.Data;
 using System;
 using System.Collections.Generic;
@@ -19,8 +20,7 @@ namespace NSE.Core.Message
         protected void AddError(string Erro)
         {
             ValidationResult.Errors.Add(new ValidationFailure(string.Empty, Erro));
-        }
-
+        } 
         protected async Task<ValidationResult> Persist(IUnitOfWork work)
         {
             if(!await work.Commit())

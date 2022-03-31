@@ -42,6 +42,7 @@ namespace NSE.Clientes.API.Application.Commands
 
 
             return await Persist(_clienteRepository.work);
+             
         }
     }
 }

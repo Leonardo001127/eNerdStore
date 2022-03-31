@@ -8,7 +8,7 @@ namespace NSE.Clientes.API.Data.Repository
 {
     public class ClienteRepository : IClienteRepository
     {
-        private readonly ClienteContext context;
+        public ClienteContext context { get; set; }
        
 
         public ClienteRepository(ClienteContext context)
@@ -30,11 +30,12 @@ namespace NSE.Clientes.API.Data.Repository
 
         public void Adicionar(Cliente cliente)
         {
-            context.Clientes.Add(cliente);
+            context.Clientes.AddAsync(cliente);
         }
          
         public void Dispose()
         {
+            
             context.Dispose();
         }
     }

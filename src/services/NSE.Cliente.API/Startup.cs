@@ -52,6 +52,8 @@ namespace NSE.Clientes.API
             services.AddMediatR(typeof(Startup)); 
 
             services.RegisterServices();
+
+            services.AddMessageBusConfig(Configuration);
         }
 
 

@@ -18,7 +18,7 @@ namespace NSE.Clientes.API.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            var result = mediator.EnviarCommando(new RegistrarClienteCommand("teste", "teste", "teste", System.Guid.NewGuid())); 
+            var result = mediator.EnviarCommando(new RegistrarClienteCommand("leo", "teste@teste.com", "45873281890", System.Guid.NewGuid())); 
 
             return CustomResponse(result);
         }
