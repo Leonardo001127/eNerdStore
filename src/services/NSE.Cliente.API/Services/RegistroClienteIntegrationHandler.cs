@@ -24,17 +24,25 @@ namespace NSE.Clientes.API.Services
             _bus = bus;
         }
 
+        private void SetResponder()
+        {
+            _bus.RespondAsync<UsuarioRegistradoIntegrationEvent, ResponseMessage>(async proc =>
+               await Registrar(proc));
+        }
+        private void OnConnect(object s, EventArgs e)
+        {
+            SetResponder();
+        }
+
         protected override Task ExecuteAsync(CancellationToken stoppingToken)
         {
-            
+            SetResponder();
 
-            _bus.RespondAsync<UsuarioRegistradoIntegrationEvent, ResponseMessage>(async proc =>
-                await Registrar(proc));
-
+            _bus.advancedBus.Connected += OnConnect;
 
             return Task.CompletedTask;
         }
-
+      
         public async Task<ResponseMessage> Registrar(UsuarioRegistradoIntegrationEvent usuario)
         {
             var result = new ValidationResult();
