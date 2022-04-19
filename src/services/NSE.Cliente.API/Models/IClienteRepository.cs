@@ -10,7 +10,7 @@ namespace NSE.Clientes.API.Models
         
         void Adicionar(Cliente cliente);
 
-        Task<Cliente> GetByCpf(string Cpf);
+        Cliente GetByCpf(string Cpf);
 
         Task<IEnumerable<Cliente>> GetAll();
 

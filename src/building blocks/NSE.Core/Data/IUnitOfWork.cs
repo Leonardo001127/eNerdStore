@@ -8,7 +8,6 @@ namespace NSE.Core.Data
 {
     public interface IUnitOfWork
     {
-        Task<bool> Commit();
-        Task<bool> Commit(DbContext context);
+        Task<bool> Commit(); 
     }
 }

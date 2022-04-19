@@ -28,10 +28,10 @@ namespace NSE.Clientes.API.Application.Commands
 
             var clienteExists = _clienteRepository.GetByCpf(message.Cpf);
 
-            if (clienteExists == null)
+            if (clienteExists != null)
             {
                 AddError("Cliente já cadastrado no sistema");
-                return message.ValidationResult;
+                return ValidationResult;
             }
 
 
@@ -40,7 +40,7 @@ namespace NSE.Clientes.API.Application.Commands
 
             cliente.AddEvent(new ClienteRegistradoEvent(message.Id, message.Nome, message.Email, message.Cpf));
 
-
+             
             return await Persist(_clienteRepository.work);
              
         }

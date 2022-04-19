@@ -62,7 +62,7 @@ namespace NSE.Clientes.API.Data
         public static async Task PublicarEventos<T>(this IMediatorHandler mediatorHandler, T ctx)
             where T : DbContext
         {
-            return;
+            
             var domainEntities = ctx.ChangeTracker
                 .Entries<Entity>()
                 .Where(x => x.Entity.Notificacoes != null && x.Entity.Notificacoes.Any());

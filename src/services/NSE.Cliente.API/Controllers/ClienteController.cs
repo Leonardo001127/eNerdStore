@@ -2,6 +2,7 @@
 using NSE.Clientes.API.Application.Commands;
 using NSE.Core.Mediator;
 using NSE.WebAPI.Core.Controllers;
+using System.Threading.Tasks;
 
 namespace NSE.Clientes.API.Controllers
 {
@@ -16,9 +17,9 @@ namespace NSE.Clientes.API.Controllers
         }
 
         [HttpGet]
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var result = mediator.EnviarCommando(new RegistrarClienteCommand("leo", "teste@teste.com", "45873281890", System.Guid.NewGuid())); 
+            var result = await mediator.EnviarCommando(new RegistrarClienteCommand("leo", "teste@teste.com", "45873281890", System.Guid.NewGuid())); 
 
             return CustomResponse(result);
         }

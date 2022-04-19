@@ -2,6 +2,7 @@
 using NSE.Clientes.API.Models;
 using NSE.Core.Data;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace NSE.Clientes.API.Data.Repository
@@ -20,22 +21,21 @@ namespace NSE.Clientes.API.Data.Repository
 
         public async Task<IEnumerable<Cliente>> GetAll()
         {
-            return await context.Clientes.ToListAsync();
+            return await context.Clientes.AsNoTracking().ToListAsync();
         }
 
-        public async Task<Cliente> GetByCpf(string cpf)
+        public Cliente GetByCpf(string cpf)
         {
-            return await context.Clientes.FirstOrDefaultAsync(x => x.Cpf.Numero == cpf);
+            return context.Clientes.FirstOrDefault(x => x.Cpf.Numero == cpf);
         }
 
         public void Adicionar(Cliente cliente)
         {
-            context.Clientes.AddAsync(cliente);
+            context.Clientes.Add(cliente);
         }
          
         public void Dispose()
-        {
-            
+        { 
             context.Dispose();
         }
     }
